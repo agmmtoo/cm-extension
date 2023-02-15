@@ -1,4 +1,5 @@
-console.log("%cCM page skipper loaded!", "color: green;font-size: 2rem;")
+console.log("%cpage skipper loaded!", "color: lime;font-size: 1.2rem;font-weight: 700;text-transform: uppercase;");
+console.log("%cenjoy direct link to file host page.", "color: yellow;font-size: 1rem;text-transform: uppercase;");
 
 // Find all elements with a src attribute that includes "www.thecmpage.com"
 const elements = document.querySelectorAll('a[href*="www.thecmpage.com?r="]');
@@ -21,7 +22,6 @@ elements.forEach(function (element) {
 
     //   Set the new value of the src attribute
     element.setAttribute('href', encodedUrl);
-
     //   stickyPad.appendChild(element.parentElement)
     //   element.parentElement.style.border = "2px solid green";
 });
