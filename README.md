@@ -6,7 +6,7 @@ ChannelMyanmar Ad Remover is a Chrome extension that removes ad banners from Cha
 
 To install this extension:
 
-1. Download the extension by clicking the green "Code" button at the top of this repository and selecting "Download ZIP".
+1. Download the extension from [latest release](https://github.com/agmyintmyatoo/cm-extension/releases/).
 2. Extract the downloaded ZIP file to a folder on your computer.
 3. Open the Chrome browser and go to the extensions page by typing "chrome://extensions" in the address bar.
 4. Turn on "Developer mode" by clicking the switch in the top-right corner of the page.
